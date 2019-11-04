@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>인테리어 전문업체 인필도</title>
+    <link rel="stylesheet" href="design.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+  </head>
+  <body>
+    <!-- Mobile -->
+    <div class="topnav">
+      <a href="index.html" class="active">INFILDO</a>
+      <div id="myLinks">
+        <a href="회사소개.html">회사소개</a>
+        <a href="종합인테리어.html">종합인테리어</a>
+        <a href="도배.html">도배</a>
+        <a href="장판.html">장판</a>
+        <a href="마루.html">마루</a>
+        <a href="데코타일.html">데코타일</a>
+        <a href="상담문의.html">상담문의</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!-- Mobile -->
+    <nav class="ifd-top-nav">
+      <div class="ifd-container">
+        <ul class="ifd-top-nav-li">
+          <a href="index.html"><span id="logo"><span>I</span>NFILDO</span></a>
+          <li><a href="회사소개.html">회사소개</a></li>
+          <li><a href="종합인테리어.html">종합인테리어</a></li>
+          <li><a href="도배.html">도배</a></li>
+          <li><a href="장판.html">장판</a></li>
+          <li><a href="마루.html">마루</a></li>
+          <li><a href="데코타일.html">데코타일</a></li>
+          <li><a href="상담문의.html">상담문의</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- 회사소개 -->
+    <div class="ifd-company">
+      <div class="ifd-company-top">
+        <span>회사 소개</span>
+      </div>
+      <div class="ifd-company-nav">
+        <div class="ifd-container">
+          <div class="ifd-company-nav-tab">
+            <button class="tablinks" onclick="openCity(event, '회사소개')">회사소개</button>
+            <button class="tablinks" onclick="openCity(event, '오시는길')">오시는길</button>
+          </div>
+        </div>
+      </div>
+      <div id="회사소개" class="tabcontent">
+        <div class="ifd-container">
+          <div class="company-grid">
+            <div class="ifd-company-introduce-header">
+              <span>소개</span>
+            </div>
+            <div class="ifd-company-introduce-body">
+              <span>인필도는 고객의 행복을 최우선으로 생각하는 인테리어 전문 업체입니다. 인테리어의 관행을 깨고 투명한 시공으로 고객님의 믿음에 보답하는 서비스와 기술을 끊임없이 연구, 개발합니다.</span>
+            </div>
+            <div class="ifd-company-introduce-header">
+              <span>비전</span>
+            </div>
+            <div class="ifd-company-introduce-body">
+              <span>지속적인 직원 교육과 서비스 향상으로 인테리어 시공, 보수 만족도 1위 기업을 목표 합니다</span>
+            </div>
+            <div class="ifd-company-introduce-header">
+              <span>인필도 4대 경영철학</span>
+            </div>
+            <div class="ifd-company-introduce-body">
+              <span>안심하고 맡길 수 있는 인필도만의 4대 경영철학으로 고객님께 다가갑니다.</span>
+              <div class="ifd-company-introduce-body-detail">
+                <span class="number">신뢰</span><span>고객님과의 약속은 최우선!</span><br>
+                <span class="number">도덕</span><span>도덕적 윤리를 가진 직원들과 함께하며 불공정 행위나 비윤리적 행위를 지향하여 깨끗한 인테리어 업체의 선봉한다.</span><br>
+                <span class="number">열정</span><span>끊임없는 기술 개발과 연구를 통해 최상의 퀄리티를 추구한다.</span><br>
+                <span class="number">긍정</span><span>긍정적인 마인드로 작업에 임하여 밝은 작업 분위기를 조성한다.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="오시는길" class="tabcontent">
+        <div class="ifd-container">
+          <div class="company-grid">
+            <div class="ifd-company-rotate-header">
+              <span>대전 본사</span>
+            </div>
+            <div class="ifd-company-rotate-body">
+              <div class="ifd-company-rotate-body-text">
+                <span>주소: 대전 서구 도마6길 114</span><br>
+                <span>전화: 010-6568-8659</span><br>
+                <span>이메일: infildo@naver.com</span><br>
+              </div>
+              <iframe src="https://goo.gl/maps/BZooyBqLTzAPqeSJ8" width="100%" height=""></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 회사소개 -->
+    <div class="ifd-footer">
+      <div class="ifd-footer-center">
+        <div class="ifd-footer-center-logo">
+          <span class="logo">I</span><span>NFILDO</span>
+        </div>
+        <div class="">
+          <span class="footerafter">인필도</span><span class="footerafter">대표: 송옥남</span><span>사업자등록번호: 101-26-17935</span><br>
+          <span>대전광역시 도마6길 114</span><br>
+          <span>상담 및 문의 전화: 010-8739-5689</span><br>
+          <span>e-mail: infildo@naver.com</span>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  </script>
+</html>

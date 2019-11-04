@@ -1,0 +1,1068 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+a {
+ text-decoration: none;
+ color: #fff;
+}
+ul {
+  list-style: none;
+}
+@media (min-width: 1025px) and (max-width: 2000px) {
+  .topnav {
+    display: none;
+  }
+  /* navigation */
+  .ifd-top-nav {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: #fff;
+    border-bottom: 1px solid #DFE1E6;
+    height: 80px;
+    display: block;
+    z-index: 9999;
+  }
+  .ifd-container {
+    width: 1080px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .ifd-top-nav-li {
+    text-align: center;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -10px;
+    width: auto;
+    height: 80px;
+    font-weight: 600;
+  }
+  #logo {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  #logo span {
+    font-weight: 900;
+    color: rgb(24,215,111);
+  }
+  .ifd-top-nav-li a {
+    color: #000;
+  }
+  .ifd-top-nav-li a:hover {
+    color: rgb(24,215,111);
+  }
+  /* inner */
+  .ifd-top-inner {
+    background: rgb(24,215,111);
+    background: linear-gradient(90deg, rgba(24,215,111,1) 0%, rgba(0,212,255,1) 100%);
+    height: 600px;
+    color: #fff;
+  }
+  .ifd-top-inner-tag {
+    transform: rotate(270deg);
+    position: relative;
+    left: -50%;
+  }
+  .ifd-top-inner-tag span {
+    display: inline-block;
+    margin: 0 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .ifd-top-inner-header {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    top: 120px;
+    padding-left: 80px;
+  }
+  .ifd-top-inner-body {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 6px;
+    position: relative;
+    top: 150px;
+    padding-left: 80px;
+  }
+  .ifd-top-inner-nav {
+    position: relative;
+    top: 200px;
+    padding-left: 80px;
+  }
+  .ifd-top-inner-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    margin-right: 15px;
+    font-weight: 700;
+  }
+  .ifd-top-inner-nav a:hover {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: rgb(24,215,111);
+  }
+  .ifd-body-top {
+    margin-top: 70px;
+  }
+  .ifd-body-top-header {
+    text-align: center;
+  }
+  .ifd-body-top-header-top {
+    font-size: 17px;
+    color: #444444;
+  }
+  .ifd-body-top-header-body {
+    font-size: 32px;
+    color: #222222;
+    line-height: 70px;
+  }
+  .ifd-body-top-body {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }.ifd-body-body-text-header {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  .ifd-body-body-text-body {
+    font-size: 16px;
+    color: #8e969e;
+    padding-right: 39px;
+  }
+  .ifd-body-middle {
+    margin-top: 70px;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .ifd-body-middle-header {
+    padding-top: 70px;
+    font-size: 32px;
+    color: #222222;
+  }
+  /* best interior */
+  .ifd-body-middle-best {
+    margin-top: 50px;
+  }
+  .ifd-body-middle-best img {
+    width: 31%;
+    padding: 1%;
+  }
+  .ifd-body-middle-best-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid rgb(24,215,111);
+    color: rgb(24,215,111);
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  .ifd-body-middle-best-nav a:hover {
+    border: 1px solid rgb(24,215,111);
+    background-color: rgb(24,215,111);
+    color: #fff;
+  }
+  .ifd-body-bottom {
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .ifd-body-bottom-header {
+    font-size: 25px;
+    color: #222222;
+    margin-top: 50px;
+    line-height: 50px;
+  }
+  .ifd-body-bottom-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid rgb(24,215,111);
+    color: rgb(24,215,111);
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  .ifd-body-bottom-nav a:hover {
+    border: 1px solid rgb(24,215,111);
+    background-color: rgb(24,215,111);
+    color: #fff;
+  }
+  /* footer */
+  .ifd-footer {
+    border-top: 1px solid #ddd ;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom:30px;
+  }
+  .ifd-footer-center {
+    margin-top: 30px;
+  }
+  .ifd-footer-center-logo {
+    font-size: 20px;
+  }
+  .ifd-footer-center-logo .logo {
+    color: rgb(24,215,111);
+  }
+  .footerafter::after {
+    content:"";
+    border-right: 2px solid #000;
+    font-size: 2px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 50%;
+  }
+  /* 회사소개 */
+  .ifd-company-top {
+    background: rgb(24,215,111);
+    background: linear-gradient(90deg, rgba(24,215,111,1) 0%, rgba(0,212,255,1) 100%);
+    height: 200px;
+  }
+  .ifd-company-top span {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    top: 60%;
+    width:200px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+  }
+  .ifd-company-nav-tab {
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .ifd-company-nav-tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .company-grid {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+  }
+  .ifd-company-introduce-header {
+    padding-left: 10px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .ifd-company-introduce-body {
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 20px;
+  }
+  .ifd-company-introduce-body-detail {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .ifd-company-introduce-body-detail .number {
+    padding-right: 15px;
+    font-weight: 900;
+  }
+  .ifd-company-rotate-header {
+    padding-left: 10px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .ifd-company-rotate-body {
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 17px;
+  }
+  .ifd-company-rotate-body-text {
+    padding-bottom: 40px;
+  }
+  /* 회사소개 */
+  /* 종합인테리어 */
+  .종합인테리어 {
+    margin-top: 20px;
+  }
+  .종합인테리어 img {
+    width: 23%;
+    padding: 1%;
+  }
+  .도배 {
+    margin-top: 50px;
+  }
+  .도배 img {
+    width: 18%;
+    padding: 1%;
+  }
+  .장판 {
+    margin-top: 50px;
+  }
+  .장판 img {
+    width: 18%;
+    padding: 1%;
+  }
+  .마루 {
+    margin-top: 50px;
+  }
+  .마루 img {
+    width: 18%;
+    padding: 1%;
+  }
+  .데코타일 {
+    margin-top: 50px;
+  }
+  .데코타일 img {
+    width: 18%;
+    padding: 1%;
+  }
+  .ifd-customer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .ifd-customer .notice {
+    font-size: 15px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .topnav {
+    display: none;
+  }
+  /* navigation */
+  .ifd-top-nav {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: #fff;
+    border-bottom: 1px solid #DFE1E6;
+    height: 80px;
+    display: block;
+    z-index: 9999;
+  }
+  .ifd-container {
+    width: 90%;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .ifd-top-nav-li {
+    text-align: center;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -10px;
+    width: 90%;
+    height: 80px;
+    font-weight: 600;
+  }
+  #logo {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  #logo span {
+    font-weight: 900;
+    color: rgb(24,215,111);
+  }
+  .ifd-top-nav-li a {
+    color: #000;
+  }
+  .ifd-top-nav-li a:hover {
+    color: rgb(24,215,111);
+  }
+  /* inner */
+  .ifd-top-inner {
+    background: rgb(24,215,111);
+    background: linear-gradient(90deg, rgba(24,215,111,1) 0%, rgba(0,212,255,1) 100%);
+    height: 500px;
+    color: #fff;
+  }
+  .ifd-top-inner-tag {
+    transform: rotate(270deg);
+    position: relative;
+    left: -50%;
+    }
+  .ifd-top-inner-tag span {
+    display: inline-block;
+    margin: 0 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .ifd-top-inner-header {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    top: 120px;
+    padding-left: 80px;
+  }
+  .ifd-top-inner-body {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 6px;
+    position: relative;
+    top: 150px;
+    padding-left: 80px;
+  }
+  .ifd-top-inner-nav {
+    position: relative;
+    top: 200px;
+    padding-left: 80px;
+  }
+  .ifd-top-inner-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    margin-right: 15px;
+    font-weight: 700;
+  }
+  .ifd-top-inner-nav a:hover {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: rgb(24,215,111);
+  }
+  .ifd-body-top {
+    margin-top: 70px;
+  }
+  .ifd-body-top-header {
+    text-align: center;
+  }
+  .ifd-body-top-header-top {
+    font-size: 17px;
+    color: #444444;
+  }
+  .ifd-body-top-header-body {
+    font-size: 32px;
+    color: #222222;
+    line-height: 70px;
+  }
+  .ifd-body-top-body {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }.ifd-body-body-text-header {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .ifd-body-body-text-body {
+    font-size: 16px;
+    color: #8e969e;
+    padding-right: 39px;
+  }
+  .ifd-body-middle {
+    margin-top: 70px;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .ifd-body-middle-header {
+    padding-top: 70px;
+    font-size: 32px;
+    color: #222222;
+  }
+  /* best interior */
+  .ifd-body-middle-best {
+    margin-top: 50px;
+  }
+  .ifd-body-middle-best img {
+    width: 48%;
+    padding: 1%;
+  }
+  .ifd-body-middle-best-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid rgb(24,215,111);
+    color: rgb(24,215,111);
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  .ifd-body-middle-best-nav a:hover {
+    border: 1px solid rgb(24,215,111);
+    background-color: rgb(24,215,111);
+    color: #fff;
+  }
+  .ifd-body-bottom {
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .ifd-body-bottom-header {
+    font-size: 25px;
+    color: #222222;
+    margin-top: 50px;
+    line-height: 50px;
+  }
+  .ifd-body-bottom-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid rgb(24,215,111);
+    color: rgb(24,215,111);
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  .ifd-body-bottom-nav a:hover {
+    border: 1px solid rgb(24,215,111);
+    background-color: rgb(24,215,111);
+    color: #fff;
+  }
+  /* footer */
+  .ifd-footer {
+    border-top: 1px solid #ddd ;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom:30px;
+  }
+  .ifd-footer-center {
+    margin-top: 30px;
+  }
+  .ifd-footer-center-logo {
+    font-size: 20px;
+  }
+  .ifd-footer-center-logo .logo {
+    color: rgb(24,215,111);
+  }
+  .footerafter::after {
+    content:"";
+    border-right: 2px solid #000;
+    font-size: 2px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 50%;
+  }
+  /* 회사소개 */
+  .ifd-company-top {
+    background: rgb(24,215,111);
+    background: linear-gradient(90deg, rgba(24,215,111,1) 0%, rgba(0,212,255,1) 100%);
+    height: 200px;
+  }
+  .ifd-company-top span {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    top: 60%;
+    width:200px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+  }
+  .ifd-company-nav-tab {
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .ifd-company-nav-tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .company-grid {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+  }
+  .ifd-company-introduce-header {
+    padding-left: 10px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: 800;
+  }
+  .ifd-company-introduce-body {
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 16px;
+  }
+  .ifd-company-introduce-body-detail {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+  .ifd-company-introduce-body-detail .number {
+    padding-right: 15px;
+    font-weight: 900;
+  }
+  .ifd-company-rotate-header {
+    padding-left: 10px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .ifd-company-rotate-body {
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 17px;
+  }
+  .ifd-company-rotate-body-text {
+    padding-bottom: 40px;
+  }
+  /* 회사소개 */
+  /* 종합인테리어 */
+  .종합인테리어 {
+    margin-top: 20px;
+  }
+  .종합인테리어 img {
+    width: 48%;
+    padding: 1%;
+  }
+  .도배 {
+    margin-top: 50px;
+  }
+  .도배 img {
+    width: 31%;
+    padding: 1%;
+  }
+  .장판 {
+    margin-top: 50px;
+  }
+  .장판 img {
+    width: 31%;
+    padding: 1%;
+  }
+  .마루 {
+    margin-top: 50px;
+  }
+  .마루 img {
+    width: 31%;
+    padding: 1%;
+  }
+  .데코타일 {
+    margin-top: 50px;
+  }
+  .데코타일 img {
+    width: 31%;
+    padding: 1%;
+  }
+  .ifd-customer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .ifd-customer .notice {
+    font-size: 15px;
+  }
+}
+@media (min-width: 1px) and (max-width: 767px) {
+  /* mobile nav */
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+
+  .topnav #myLinks {
+    display: none;
+  }
+
+  .topnav .active {
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    font-weight: 900;
+  }
+  .topnav a {
+    color: #fff;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav a:hover {
+    background-color: rgb(24,215,111);
+    color: #fff;
+  }
+
+  .active {
+    background-color: #fff;
+    color: black;
+  }
+  /* navigation */
+  .ifd-top-nav {
+    position: fixed;
+    right: 0;
+    left: 0;
+    background: #fff;
+    border-bottom: 1px solid #DFE1E6;
+    height: 80px;
+    display: none;
+    z-index: 9999;
+  }
+  .ifd-container {
+    width: 100%;
+    margin: auto;
+  }
+  .ifd-top-nav-li {
+    text-align: center;
+    display: none;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -10px;
+    width: 90%;
+    height: 80px;
+    font-weight: 600;
+  }
+  #logo {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  #logo span {
+    font-weight: 900;
+    color: rgb(24,215,111);
+  }
+  .ifd-top-nav-li a {
+    color: #000;
+  }
+  .ifd-top-nav-li a:hover {
+    color: rgb(24,215,111);
+  }
+  /* inner */
+  .ifd-top-inner {
+    background: rgb(24,215,111);
+    background: linear-gradient(90deg, rgba(24,215,111,1) 0%, rgba(0,212,255,1) 100%);
+    height: 400px;
+    color: #fff;
+  }
+  .ifd-top-inner-tag {
+    transform: rotate(270deg);
+    position: relative;
+    left: -45%;
+    }
+  .ifd-top-inner-tag span {
+    display: none;
+    margin: 0 12px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 9px;
+    font-weight: 500;
+  }
+  .ifd-top-inner-header {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0;
+    position: relative;
+    top: 90px;
+    padding-left: 30px;
+  }
+  .ifd-top-inner-body {
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.5;
+    letter-spacing: 6px;
+    position: relative;
+    top: 120px;
+    padding-left: 30px;
+  }
+  .ifd-top-inner-nav {
+    position: relative;
+    top: 160px;
+    padding-left: 30px;
+  }
+  .ifd-top-inner-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid #fff;
+    margin-right: 15px;
+    font-weight: 700;
+  }
+  .ifd-top-inner-nav a:hover {
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: rgb(24,215,111);
+  }
+  .ifd-body-top {
+    margin-top: 70px;
+  }
+  .ifd-body-top-header {
+    text-align: center;
+  }
+  .ifd-body-top-header-top {
+    font-size: 17px;
+    color: #444444;
+  }
+  .ifd-body-top-header-body {
+    font-size: 32px;
+    color: #222222;
+    line-height: 70px;
+  }
+  .ifd-body-top-body {
+    display: grid;
+    grid-template-columns: 12fr;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .ifd-body-top-body div {
+    margin-top: 20px;
+  }
+  .ifd-body-body-text-header {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .ifd-body-body-text-body {
+    font-size: 16px;
+    color: #8e969e;
+    padding-right: 30px;
+    padding-left:30px;
+  }
+  .ifd-body-middle {
+    margin-top: 70px;
+    background-color: #F8F8F8;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  .ifd-body-middle-header {
+    padding-top: 70px;
+    font-size: 28px;
+    color: #222222;
+  }
+  /* best interior */
+  .ifd-body-middle-best {
+    margin-top: 50px;
+  }
+  .ifd-body-middle-best img {
+    width: 48%;
+    padding: 1%;
+  }
+  .ifd-body-middle-best-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid rgb(24,215,111);
+    color: rgb(24,215,111);
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  .ifd-body-middle-best-nav a:hover {
+    border: 1px solid rgb(24,215,111);
+    background-color: rgb(24,215,111);
+    color: #fff;
+  }
+  .ifd-body-bottom {
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .ifd-body-bottom-header {
+    font-size: 20px;
+    color: #222222;
+    margin-top: 50px;
+    line-height: 50px;
+  }
+  .ifd-body-bottom-nav a {
+    display: inline-block;
+    padding: 11px 27px;
+    border-radius: 26px;
+    font-size: 18px;
+    border: 1px solid rgb(24,215,111);
+    color: rgb(24,215,111);
+    margin-top: 30px;
+    font-weight: 700;
+  }
+  .ifd-body-bottom-nav a:hover {
+    border: 1px solid rgb(24,215,111);
+    background-color: rgb(24,215,111);
+    color: #fff;
+  }
+  /* footer */
+  .ifd-footer {
+    border-top: 1px solid #ddd ;
+    text-align: center;
+    font-size: 13px;
+    padding-bottom:30px;
+  }
+  .ifd-footer-center {
+    margin-top: 30px;
+  }
+  .ifd-footer-center-logo {
+    font-size: 20px;
+  }
+  .ifd-footer-center-logo .logo {
+    color: rgb(24,215,111);
+  }
+  .footerafter::after {
+    content:"";
+    border-right: 2px solid #000;
+    font-size: 2px;
+    margin-left: 7px;
+    margin-right: 7px;
+    height: 50%;
+  }
+  /* 회사소개 */
+  .ifd-company-top {
+    background: rgb(24,215,111);
+    background: linear-gradient(90deg, rgba(24,215,111,1) 0%, rgba(0,212,255,1) 100%);
+    height: 200px;
+  }
+  .ifd-company-top span {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    top: 60%;
+    width:200px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+  }
+  .ifd-company-nav-tab {
+    margin-top: 50px;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
+  .ifd-company-nav-tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  .company-grid {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+  }
+  .ifd-company-introduce-header {
+    padding-left: 10px;
+    padding-right: 12px;
+    padding-top:40px;
+    padding-bottom: 40px;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+  .ifd-company-introduce-body {
+    padding-top:40px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+  .ifd-company-introduce-body-detail {
+    font-size: 1rem;
+    padding-top: 15px;
+  }
+  .ifd-company-introduce-body-detail .number {
+    padding-right: 1rem;
+    font-weight: 900;
+  }
+  #오시는길 .company-grid {
+    display: grid;
+    grid-template-columns: 12fr;
+  }
+  .ifd-company-rotate-header {
+    padding-left: 10px;
+    padding-top:40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-weight: 800;
+  }
+  .ifd-company-rotate-body {
+    padding-bottom: 40px;
+    font-size: 17px;
+  }
+  .ifd-company-rotate-body-text {
+    padding-bottom: 40px;
+    padding-left: 10px;
+  }
+  /* 회사소개 */
+  /* 종합인테리어 */
+  .종합인테리어 {
+    margin-top: 20px;
+  }
+  .종합인테리어 img {
+    width: 48%;
+    padding: 1%;
+  }
+  .도배 {
+    margin-top: 20px;
+  }
+  .도배 img {
+    width: 31%;
+    padding: 1%;
+  }
+  .장판 {
+    margin-top: 20px;
+  }
+  .장판 img {
+    width: 31%;
+    padding: 1%;
+  }
+  .마루 {
+    margin-top: 20px;
+  }
+  .마루 img {
+    width: 31%;
+    padding: 1%;
+  }
+  .데코타일 {
+    margin-top: 20px;
+  }
+  .데코타일 img {
+    width: 31%;
+    padding: 1%;
+  }
+  .ifd-customer {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 1.2rem;
+    line-height: 40px;
+    text-align: center;
+  }
+  .ifd-customer .notice {
+    font-size: 1rem;
+  }
+}
